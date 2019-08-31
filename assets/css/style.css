@@ -1,0 +1,200 @@
+body {
+  background-color: #000000;
+  color: #ffffff;
+  margin-bottom: 1rem;
+}
+
+/* Hero */
+
+.col-hero {
+  background-image: url('/assets/images/cadence-weapon-art-background.jpg');
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  display: inline-flex;
+  justify-content: center;
+  max-height: 100%;
+  max-width: 90%;
+  margin: 20px 20px 0 20px;
+  margin-left:20px;
+  overflow: hidden;
+}
+
+.cw-character {
+  position: relative;
+  width: 40%;
+  height: auto;
+  top: 10%;
+  left: 30%;
+}
+
+.cw-logo {
+  max-height: 100%;
+  position: absolute;
+  width: 100%;
+  z-index: 0;
+}
+
+/* Tour dates */
+
+h1.tour-headline {
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 3rem;
+  word-break: normal;
+}
+
+h2.tour-headline {
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 1rem;
+  word-break: normal;
+}
+
+.container-tour-schedule {
+  padding: 0.5rem 0;
+}
+
+ @media screen and (min-width: 576px) {
+    .container-tour-schedule {
+      padding: 1.5rem;
+    }
+  }
+
+.table th {
+  text-transform: uppercase;
+  padding: 0.6rem 0.5rem;
+}
+
+.table td {
+  background-color: none;
+  font-size: 0.85rem;
+  padding: 0.6rem 0.5rem;
+}
+
+.table td a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.ticket-link {
+  cursor: pointer;
+}
+
+/* Mailchimp */
+
+.div-mailing-list {
+  margin: 1.5rem;
+}
+
+#mc_embed_signup_scroll label {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+#mc_embed_signup_scroll input {
+  margin-bottom: 20px;
+}
+
+#mc_embed_signup_scroll input:last-child {
+  margin-bottom: 0;
+}
+
+#mc-embedded-subscribe {
+  background-color: #5dac00;
+  border: 0;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 500;
+  margin: auto;
+  text-transform: uppercase;
+  transition-duration: 0.2s;
+  transition-timing-function: ease;
+  width: 100%;
+}
+
+#mc-embedded-subscribe:hover {
+  background-color: #3c6f01;
+  border-radius: 10px;
+  transition-duration: 0.2s;
+  transition-timing-function: ease;
+}
+
+form .email {
+  border: 0;
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+/* Social links */
+
+.social-link-icon {
+  display: inline-block;
+  font-size: 2.1rem;
+  padding: 0 0.5rem;
+}
+
+@media screen and (max-width: 575px) {
+  .social-link-icon {
+    font-size: 1.5rem;
+    padding: 0 0.25rem;
+  }
+}
+
+.social-links {
+  padding: 0 1rem;
+}
+
+.social-links a {
+  color: #ffffff;
+  font-size: 1srem;
+  font-weight: 300;
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
+}
+
+.social-links a:hover {
+  text-decoration: none;
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
+}
+
+#social-link-facebook:hover {
+  color: #5db5de;
+}
+
+#social-link-instagram:hover {
+  color: #c57aba;
+}
+
+#social-link-twitter:hover {
+  color: #fff200;
+}
+
+#social-link-youtube:hover {
+  color: #c57aba;
+}
+
+#social-link-soundcloud:hover {
+  color: #63b700;
+}
+
+#social-link-apple-music:hover {
+  color: #4756a0;
+}
+
+#social-link-spotify:hover {
+  color: #63b700;
+}
+
+.spotify-iframe-div {
+  align-items: center;
+  max-width: 79vh;
+}
+
+iframe {
+  display: block;
+  margin: auto;
+  max-width: 100%;
+}
