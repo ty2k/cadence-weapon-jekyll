@@ -7,7 +7,7 @@ body {
 /* Hero */
 
 .col-hero {
-  background-image: url('assets/images/cadence-weapon-art-background.jpg');
+  background-image: url('../images/cadence-weapon-art-background.jpg');
   background-position: center top;
   background-repeat: no-repeat;
   background-size: 100% auto;
