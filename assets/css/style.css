@@ -40,14 +40,12 @@ body {
 h1.tour-headline {
   font-weight: 900;
   font-size: 3.5rem;
-  line-height: 3rem;
   word-break: normal;
 }
 
 h2.tour-headline {
   font-weight: 400;
   font-size: 1.5rem;
-  line-height: 1rem;
   word-break: normal;
 }
 
@@ -95,6 +93,7 @@ h2.tour-headline {
 
 #mc_embed_signup_scroll input {
   margin-bottom: 20px;
+  padding: 0.25rem;
 }
 
 #mc_embed_signup_scroll input:last-child {
@@ -102,23 +101,28 @@ h2.tour-headline {
 }
 
 #mc-embedded-subscribe {
-  background-color: #5dac00;
+  background-color: #3c6f01;
   border: 0;
   color: #ffffff;
   font-size: 1rem;
   font-weight: 500;
   margin: auto;
-  text-transform: uppercase;
+  padding: 0.25rem;
+  cursor: pointer;
   transition-duration: 0.2s;
   transition-timing-function: ease;
   width: 100%;
 }
 
 #mc-embedded-subscribe:hover {
-  background-color: #3c6f01;
+  background-color: #509600;
   border-radius: 10px;
   transition-duration: 0.2s;
   transition-timing-function: ease;
+}
+
+#mc-embedded-subscribe:active {
+  background-color: #3c6f01;
 }
 
 form .email {
@@ -128,6 +132,10 @@ form .email {
 }
 
 /* Social links */
+
+.div-social-links {
+  padding-bottom: 1rem;
+}
 
 .social-link-icon {
   display: inline-block;
@@ -142,11 +150,7 @@ form .email {
   }
 }
 
-.social-links {
-  padding: 0 1rem;
-}
-
-.social-links a {
+.div-social-links a {
   color: #ffffff;
   font-size: 1srem;
   font-weight: 300;
@@ -154,7 +158,7 @@ form .email {
   transition-timing-function: ease;
 }
 
-.social-links a:hover {
+.div-social-links a:hover {
   text-decoration: none;
   transition-duration: 0.3s;
   transition-timing-function: ease;
@@ -188,9 +192,18 @@ form .email {
   color: #63b700;
 }
 
-.spotify-iframe-div {
+#social-link-bandcamp:hover {
+  color: #fff200;
+}
+
+.div-iframe-bandcamp {
   align-items: center;
-  max-width: 79vh;
+  padding-bottom: 1rem;
+}
+
+.div-iframe-spotify {
+  align-items: center;
+  padding-bottom: 1rem;
 }
 
 iframe {
