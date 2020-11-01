@@ -140,13 +140,13 @@ form .email {
 .social-link-icon {
   display: inline-block;
   font-size: 2.1rem;
-  padding: 0 0.5rem;
+  padding: 0 0.5rem 0.5rem 0.5rem;
 }
 
 @media screen and (max-width: 575px) {
   .social-link-icon {
     font-size: 1.5rem;
-    padding: 0 0.25rem;
+    padding: 0 0.5rem 0.5rem 0.5rem;
   }
 }
 
