@@ -181,7 +181,7 @@ form .email {
 }
 
 #social-link-soundcloud:hover {
-  color: #63b700;
+  color: #5db5de;
 }
 
 #social-link-apple-music:hover {
@@ -194,6 +194,10 @@ form .email {
 
 #social-link-bandcamp:hover {
   color: #fff200;
+}
+
+#social-link-twitch:hover {
+  color: #4756a0;
 }
 
 .div-iframe-bandcamp {
