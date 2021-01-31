@@ -16,16 +16,12 @@ body {
   max-height: 100%;
   max-width: 90%;
   margin: 20px 20px 0 20px;
-  margin-left:20px;
   overflow: hidden;
 }
 
 .cw-character {
   position: relative;
-  width: 40%;
-  height: auto;
   top: 10%;
-  left: 30%;
 }
 
 .cw-logo {
@@ -137,17 +133,24 @@ form .email {
   padding-bottom: 1rem;
 }
 
+.div-social-links .flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: -0.75rem;
+}
+
 .social-link-icon {
   display: inline-block;
   font-size: 2.1rem;
-  padding: 0 0.5rem 0.5rem 0.5rem;
+  margin: 0.25rem;
+  padding: 0.5rem;
 }
 
-@media screen and (max-width: 575px) {
-  .social-link-icon {
-    font-size: 1.5rem;
-    padding: 0 0.5rem 0.5rem 0.5rem;
-  }
+.social-link-icon a {
+  display: block;
+  min-width: 44px;
+  min-height: 44px;
 }
 
 .div-social-links a {
